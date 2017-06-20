@@ -1,1 +1,21 @@
-/* Your CSS Here */
+.title {
+  font-size:18px;
+}
+.top {
+  background-color: rgb(200, 500, 250);
+  text-align:center;
+}
+.the-button {
+  color:rgb(400, 300, 600);
+  border-radius: 50%;
+}
+.divlist1 {
+  background-color: white
+  width:20%;
+}
+.divlist2 {
+  width:20%;
+}
+.divlist3 {
+  width:20%;
+}
