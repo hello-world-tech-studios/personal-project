@@ -9,13 +9,8 @@
   color:rgb(400, 300, 600);
   border-radius: 50%;
 }
-.divlist1 {
-  background-color: white
-  width:20%;
-}
-.divlist2 {
-  width:20%;
-}
-.divlist3 {
-  width:20%;
+.divlist {
+  width:19%;
+  display:inline-block;
+  
 }
