@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-button {
+.button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -70,4 +70,21 @@ color:white;
 #img2 {
 width:100px;
 border:1px solid black;
+}
+
+.message {
+border:2px solid black;
+margin:10px;
+text-align: left;
+}
+
+.avatar {
+width:100px;
+border:2px solid black;
+}
+
+.text{
+display: inline-block;
+height: 100%;
+
 }
