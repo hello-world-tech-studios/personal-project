@@ -16,4 +16,8 @@ $(document).ready(function() {
     var c = alert("you are at the home page.");
     
   });
+  $('.comment').on('click', function() {
+    var addedcomment = prompt("type in the comment you would like.")
+    document.write(addedcomment)
+  });
 });
