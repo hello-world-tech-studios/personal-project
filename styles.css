@@ -5,7 +5,7 @@
   background-color: rgb(200, 500, 250);
   text-align:center;
 }
-.the-button {
+.theButton {
   color:rgb(400, 300, 600);
   border-radius: 50%;
 }
@@ -14,3 +14,17 @@
   display:inline-block;
   
 }
+.firstSponsorSpace {
+  border-width: 50px;
+  background: linear-gradient(to right, blue , green);
+  text-align:center;
+  height:250px;
+  position: relative;
+}
+.adspace {
+  color:#ff9966;
+}
+#sponsor {
+  width:200px;
+}
+
