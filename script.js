@@ -25,9 +25,16 @@ $(document).ready(function() {
 
   $("#message").on("click", function() {
     
-    prompt("send a message to a real unicorn!"); 
+    var messagePrompt = prompt("send a message to a real unicorn!"); 
     var unicornMessage = Math.floor(Math.random() * 4);
+    var questionMark = messagePrompt[messagePrompt.length-1]
 
+    if (questionMark=="?"){
+      alert("It looks like you are trying to ask me a question. Sadly I am too busy with my other fans to answer your questions. Have a magical day!!")
+    }
+
+    else{
+    console.log(messagePrompt)
     if(unicornMessage==0){
       alert("Hello, friend I hope you are having a magical day! I hope that unicorns fart rainbows all over your day🦄🦄🦄🌈🌈🌈🌈!")
     }
@@ -38,7 +45,7 @@ $(document).ready(function() {
       alert("Hello friend, thank you for taking time to write me that lovely letter! I hope you have a wonderful day full of rainbows and sunshine!")
     }
     else if(unicornMessage==3){
-      alert("Hello friend, I hope you have a magical day filled with rainbows and sparkles!!")
+      alert("Hello friend, I hope you have a magical day filled with rainbows and sparkles!!")}
     }
   })
 
