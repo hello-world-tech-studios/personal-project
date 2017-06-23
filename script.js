@@ -6,7 +6,7 @@ $(document).ready(function() {
     location.href = 'http://www.' + e + '.com';
   });
   $('.thelink1').on('click', function() {
-    var  a = alert("you need to get a developer to write your code (the best developer: max vale) and come up with an idea and a name, then you buy the name, here is a website where you can buy the name.");
+    var  a = alert("you need to get a developer to write your code (the best developer: max vale (512)-343-5614) and come up with an idea and a name, then you buy the name, here is a website where you can buy the name.");
 
   });
   $('.sponsors').on('click', function() {
@@ -16,8 +16,11 @@ $(document).ready(function() {
     var c = alert("you are at the home page.");
     
   });
-  $('.comment').on('click', function() {
-    var addedcomment = prompt("type in the comment you would like.")
-    document.write(addedcomment)
-  });
+  
+  $(".sub").on("click", function(){
+    var storedinfo = $(".commententer").val()
+    $("body").append("<h1 class = 'chat'>" + storedinfo + "</h1>")
+    $(".commententer").val("")
+  })
+  
 });
